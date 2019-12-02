@@ -1,0 +1,12 @@
+.container {
+  color: #fff;
+  background-color: #43357a;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container > h1 {
+  font-weight: 500;
+}
