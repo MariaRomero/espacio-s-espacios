@@ -1,0 +1,56 @@
+.container {
+  padding: 8px;
+  flex: initial;
+  display: block;
+}
+
+@media (min-width: 680px) {
+  .container {
+    background-color: #fff;
+    padding: 8px 8px 8px 32px;
+    flex: 1 1 auto;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.cancelEditingAction {
+  align-self: flex-end;
+  color: transparent;
+  cursor: pointer;
+  border: 0;
+  display: inline-block;
+  padding: 10px 6px;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+      45deg,
+      rgba(7, 53, 122, 0) 0%,
+      rgba(7, 53, 122, 0) 43%,
+      #43357a 45%,
+      #43357a 55%,
+      rgba(7, 53, 122, 0) 57%,
+      rgba(67, 53, 122, 0) 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 43%,
+      #43357a 45%,
+      #43357a 55%,
+      transparent 57%,
+      transparent 100%
+    );
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+}

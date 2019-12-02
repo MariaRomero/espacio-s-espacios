@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Spaces created correctly 1`] = `
+<section
+  className="container"
+>
+  <div
+    className="wrapper"
+  >
+    <ul
+      className="list"
+    >
+      Loading...
+    </ul>
+  </div>
+</section>
+`;
+
+exports[`renders components and displays text 1`] = `
+<section
+  className="container"
+>
+  <div
+    className="wrapper"
+  >
+    <ul
+      className="list"
+    >
+      Loading...
+    </ul>
+  </div>
+</section>
+`;
