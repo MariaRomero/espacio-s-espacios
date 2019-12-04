@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The idea of this project is to build a State Agency tool for Agents to create Listing of Properties
+some of the goals are to manage listings entails the following:
+
+Add spaces
+Update spaces
+View spaces
+Expire spaces
+
+A list of spaces contains the following:
+
+Multiple images
+Number of bedrooms
+Postcode
+Address
+Description
+Asking price
+Expired
+
 ## Available Scripts
 
 In the project directory, you can run:
