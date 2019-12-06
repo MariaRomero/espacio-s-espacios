@@ -1,5 +1,37 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The idea of this project is to build a State Agency tool for Agents to create Listing of Properties.
+
+Some of the goals are to manage listings entails the following:
+
+Add spaces
+Update spaces
+View spaces
+Expire spaces
+
+A list of spaces contains the following:
+
+Multiple images
+Number of bedrooms
+Postcode
+Address
+Description
+Asking price
+Expired
+
+- I have created the app using Firebase for the database.
+- Jest and react testing library for test.
+- Other libraries like react gesture gallery to be able to deliver the required solution.
+
+I have deployed the App using Firebase Hosting
+
+You can view the deployed version at https://espacio-s-paces.firebaseapp.com/
+
+Users can create spaces by filling the form on the main page, images need to be uploaded using their url addresses separated by a ","
+Users can update spaces
+Users can expire spaces by pressing the 'Update space' button and then the 'Expire space' button, which will set the time stamp on the space to the previous day.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -18,18 +50,6 @@ Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
-
-- I have created the app using Firebase for the database.
-- Jest and react testing library for test.
-- Other libraries like react gesture gallery to be able to deliver the required solution.
-
-I have deployed the App using Firebase Hosting
-
-You can view the deployed version at https://espacio-s-paces.firebaseapp.com/
-
-Users can create spaces by filling the form on the main page, images need to be uploaded using their url addresses separated by a ","
-Users can update spaces
-Users can expire spaces by pressing the 'Update space' button and then the 'Expire space' button, which will set the time stamp on the space to the previous day.
 
 Ways to Improve it
 
